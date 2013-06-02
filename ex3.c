@@ -30,7 +30,7 @@ int funcEhPrimo(int a)
 	{
 	int somar = 1, i, divisivel = 0;
 
-	for(i = 1; i < a; i++)
+	for(i = 1; i < a && divisivel < 2; i++)
 	{
 	if(a % i == 0)
 		{
@@ -38,7 +38,7 @@ int funcEhPrimo(int a)
 		}	
 	}
 
-	if(divisivel < 2)
+	if(divisivel == 1)
 	{
 	return TRUE;
 	}
