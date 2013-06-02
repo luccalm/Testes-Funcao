@@ -4,7 +4,7 @@
 #define TRUE 1
 #define FALSE 0
 
-/* Teste 2 */
+/* Determina se dado número é primo. */
 
 int main(){
 	int a, resultado;

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-/* Teste 2 */
+/* Realiza o fatorial de determinado número. */
 
 int main(){
 	int a, resultado;

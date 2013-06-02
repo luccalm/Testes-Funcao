@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-/* Teste 1 */
+/* Realiza a soma de 2 números inteiros */
 
 int main(){
 	int a, b, resultado;
